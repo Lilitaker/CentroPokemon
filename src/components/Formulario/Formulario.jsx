@@ -31,8 +31,7 @@ const Formulario = () => {
         </p>
         <div className="cuerpo-formulario">
           {/*
-           Si tan solo tuviesemos una manera de "encapsular" nuestros componentes
-           para que puedan acceder al estado global.
+           Si tan solo tuviesemos una manera de "encapsular" nuestros componentes para que puedan acceder al estado global.
           */}
           <div className="inputs">
             <div>
@@ -50,6 +49,10 @@ const Formulario = () => {
                 <span>POKEMON</span>
               </p>
               <Input name="nombrePokemon" label="Nombre" />
+              <Input name="tipoPokemon" label="Tipo" />
+              <Input name="elementoPokemon" label="Elemento" />
+              <Input name="alturaPokemon" label="Altura" />
+              <Input name="edadPokemon" label="Edad" />
             </div>
           </div>
           <Detalle />
